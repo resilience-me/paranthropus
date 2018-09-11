@@ -29,7 +29,7 @@
       
           for(let row of fileParts.rows){
       
-              File+=row.fileraw;
+              File+=row.data;
           }
           
           document.getElementById('object').setAttribute('data', "data:application/pdf;base64,"+File);
