@@ -8,7 +8,7 @@ chain = {
 
 eos = Eos({
 
-    httpEndpoint: 'http://mainnet.eoscalgary.io:80',
+    httpEndpoint: 'https://mainnet.eoscalgary.io:80',
     chainId: chain.main
 });
 async function loadFile(){
